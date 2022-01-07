@@ -38,7 +38,7 @@
                         <div class="mb-3">
                             <label for="textInputHeader" class="form-label">Header Scripts</label>
                             <div class="codearea-control">
-                                <textarea name="textInputHeader" class="textareascriptfields"><?php echo stripslashes(get_option('ihf_header_scripts')); ?></textarea>
+                                <textarea name="textInputHeader" class="textareascriptfields" id="textInputHeader"><?php echo stripslashes(get_option('ihf_header_scripts')); ?></textarea>
                                 
                             </div>
                             <div id="headerHelp" class="form-text">Only html javascript and php is allowed.</div>
@@ -51,7 +51,7 @@
                         <div class="mb-3">
                             <label for="textInputFooter" class="form-label">Footer Scripts</label>
                             <div class="codearea-control">
-                                <textarea name="textInputFooter" class="textareascriptfields" ><?php echo stripslashes(get_option('ihf_footer_scripts')); ?></textarea>
+                                <textarea name="textInputFooter" class="textareascriptfields" id="textInputFooter"><?php echo stripslashes(get_option('ihf_footer_scripts')); ?></textarea>
                             </div>
                             <div id="footerHelp" class="form-text">Only html javascript and php is allowed.</div>
                         </div>
