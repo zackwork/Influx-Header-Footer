@@ -12,7 +12,7 @@ Class Influx_Header_Footer{
         
     }
     public function ihf_display_header_scripts(){
-        $header_scripts = get_option('ihf_header_scripts', '');
+        $header_scripts = stripslashes(get_option('ihf_header_scripts'));
         
         $user = wp_get_current_user();
         if ( current_user_can( 'manage_options' ) ) {
@@ -24,7 +24,7 @@ Class Influx_Header_Footer{
     }
 
     public function ihf_display_footer_scripts(){
-        $footer_scripts = get_option('ihf_footer_scripts', '');
+        $footer_scripts = stripslashes(get_option('ihf_footer_scripts'));
         $user = wp_get_current_user();
         if ( current_user_can( 'manage_options' ) ) {
             //Something in the case of admin
