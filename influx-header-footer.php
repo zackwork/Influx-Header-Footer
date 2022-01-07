@@ -1,13 +1,13 @@
 <?php
     /*
 
-    Plugin Name: Influx Header Footer
+    Plugin Name: Influx Header and Footer
     Plugin URI: 
     Description: Inject scripts into header footer and shows it to users except admin
     Version: 1.0.0
     Author: ZackSnyder
     Author URI: 
-    License: Commercial (TheUnknown.com)
+    License: GPL
 
     */
 
@@ -17,6 +17,7 @@
     if(!defined('WP_IHF_URL')){
         define('WP_IHF_URL', plugin_dir_url(__FILE__) );
     }
+    
 
     
     class WP_IHF{

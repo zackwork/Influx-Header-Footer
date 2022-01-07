@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <?php include WP_IHF_PATH . "view/class.php"; ?>
+    <?php include WP_IHF_PATH . "view/class.php"; ?>
     <table class="form-table">
         <form method="POST" action="">
             <tbody>
@@ -38,7 +38,8 @@
                         <div class="mb-3">
                             <label for="textInputHeader" class="form-label">Header Scripts</label>
                             <div class="codearea-control">
-                                <textarea name="textInputHeader" type="text" class="form-control textareascriptfields" id="textInputHeader"><?php echo get_option('ihf_header_scripts', ''); ?></textarea>
+                                <textarea name="textInputHeader" class="textareascriptfields"><?php echo get_option('ihf_header_scripts', ''); ?></textarea>
+                                
                             </div>
                             <div id="headerHelp" class="form-text">Only html javascript and php is allowed.</div>
                         </div>
@@ -48,21 +49,9 @@
                 <tr>
                     <td>
                         <div class="mb-3">
-                            <label for="textInputBody" class="form-label">Body Scripts</label>
-                            <div class="codearea-control">
-                                <textarea name="textInputBody" type="text" class="form-control textareascriptfields" id="textInputBodyr"><?php echo get_option('ihf_body_scripts', ''); ?></textarea>
-                            </div>
-                            <div id="bodyHelp" class="form-text">Only html javascript and php is allowed.</div>
-                        </div>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <div class="mb-3">
                             <label for="textInputFooter" class="form-label">Footer Scripts</label>
                             <div class="codearea-control">
-                                <textarea name="textInputFooter" type="text" class="form-control textareascriptfields" id="textInputFooter"><?php echo get_option('ihf_footer_scripts', ''); ?></textarea>
+                                <textarea name="textInputFooter" class="textareascriptfields" ><?php echo get_option('ihf_footer_scripts', ''); ?></textarea>
                             </div>
                             <div id="footerHelp" class="form-text">Only html javascript and php is allowed.</div>
                         </div>

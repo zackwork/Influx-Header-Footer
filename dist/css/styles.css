@@ -11,10 +11,11 @@
     font-weight: 500;
     font-style: normal;
 }
-.codearea-control{
-    width: 75%;
-    min-height: 200px !important;
+.textareascriptfields, .codearea-control{
+    width: 800px;   
+    min-height: 200px ;
     font-style: normal;
+    word-break: break-word;
     font-weight: normal;
     font-size: medium;
     font-family: 'Roboto', sans-serif;

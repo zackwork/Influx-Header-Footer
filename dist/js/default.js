@@ -49,6 +49,7 @@ $(document).ready(function () {
     {
         var cm = CodeMirror.fromTextArea($('#textInputHeader')[0], {
             mode:mode,
+            lineWrapping: true,
             value:value,
             lineNumbers:true,
             theme: "dracula",
@@ -58,6 +59,7 @@ $(document).ready(function () {
         });
         var dm = CodeMirror.fromTextArea($('#textInputFooter')[0], {
             mode:mode,
+            lineWrapping: true,
             value:value,
             lineNumbers:true,
             theme: "dracula",
