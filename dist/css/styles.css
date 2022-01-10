@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
 
-.form-label{
-    font-size: 1.2rem;
-    padding: 3px;
-    font-weight: 500;
-    font-style: normal;
+.form-label {
+  font-size: 1.2rem;
+  padding: 3px;
+  font-weight: 500;
+  font-style: normal;
 }
-.form-text{
-    font-size: 0.9rem;
-    font-weight: 500;
-    font-style: normal;
+.form-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-style: normal;
 }
-.textareascriptfields, .codearea-control{
-    width: 800px;   
-    min-height: 200px ;
-    font-style: normal;
-    word-break: break-word;
-    font-weight: normal;
-    font-size: medium;
-    font-family: 'Roboto', sans-serif;
+.textareascriptfields,
+.codearea-control {
+  width: 800px;
+  min-height: 200px;
+  font-style: normal;
+  word-break: break-word;
+  font-weight: normal;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
 }
-#submitInfluxScripts{
-    font-style: normal;
-    
+#submitInfluxScripts {
+  font-style: normal;
 }

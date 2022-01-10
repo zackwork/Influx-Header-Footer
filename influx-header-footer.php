@@ -4,7 +4,7 @@
     Plugin Name: Influx Header and Footer
     Plugin URI: 
     Description: Inject scripts into header footer and shows it to users except admin
-    Version: 1.0.0
+    Version: 1.0.1
     Author: ZackSnyder
     Author URI: 
     License: GPL
